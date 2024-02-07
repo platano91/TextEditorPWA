@@ -21,7 +21,7 @@ Run "npm start" to start server.
 Go to the url of the application (http//:localhost:3001)
 
 ## Usage 
-[deployed-link](asdf.com)
+[deployed-link](https://texteditorpwa-ikmh.onrender.com/)
 
 ## License
 This project is licensed under the MIT license.
