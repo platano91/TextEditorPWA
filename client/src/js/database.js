@@ -34,6 +34,28 @@ export const putDb = async (content) => {
 };
 
 // logic that gets all the content from the database
-export const getDb = async () => console.error('getDb not implemented');
+export const getDb = async () => {
+  console.log('GET from the database');
+
+  // Open a connection to the database
+  const db = await openDB('jate', 1);
+
+  // Open a transaction, specify the store
+  const tx = db.transaction('jate', 'readonly');
+
+  // Open the desired object store
+  const store = tx.objectStore('jate');
+
+  // Use the .get() method to fetch data from the store
+  const request = store.get(1); // Assuming 1 is the key you're using for your content
+
+  // Get confirmation of the request
+  const result = await request;
+  console.log('🚀 Data fetched from the database', result);
+
+  // Return the fetched data
+  return result?.value;
+};
+
 
 initdb();
