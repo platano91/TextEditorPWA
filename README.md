@@ -1,8 +1,6 @@
-# 19 Progressive Web Applications (PWA): Text Editor
+# Progressive Web Applications (PWA): Text Editor
 
 ## Your Task
-
-As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
 
 Your task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
 
@@ -131,14 +129,3 @@ This Challenge is graded based on the following criteria:
 * Repository contains multiple descriptive commit messages
 
 * Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
